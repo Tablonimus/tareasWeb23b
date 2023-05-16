@@ -16,12 +16,12 @@ async function mostrarPersonajes() {
 
     root.innerHTML += `  
     <div class="card">
-      <img src=${personaje.imagen} />
+      <img class="image" src=${personaje.imagen} />
       <div class="card-content">
-        <span id="name">${personaje.nombre}</span>
-        <span>${personaje.genero}</span>
-        <span>${personaje.planetaDeOrigen}</span>
-        
+        <span class="compartir">${personaje.nombre}</span>
+        <span class="compartir"> ${personaje.genero}</span>
+        <span class="compartir"> ${personaje.planetaDeOrigen}</span>
+        <button class="compartir">compartir</button>
       </div>
     </div>`;
   }
