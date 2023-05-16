@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "tareasweb23b",
+  "version": "1.0.0",
+  "description": "Conjunto de tareas",
+  "main": "main.js",
+  "scripts": {
+    "start":"nodemon api.js",
+    "dev":"nodemon prueba.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
